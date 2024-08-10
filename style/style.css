@@ -5,6 +5,12 @@
     font-optical-sizing: auto;
 
 }
+.shape{
+    font-style: italic;
+    font-family: miama;
+    font-size:4.2rem;
+   
+}
 *{margin: 0;
     max-width: 1200px;
 }
@@ -136,12 +142,7 @@ letter-spacing: 0.2px;
     
 }
 
-.shape{
-    font-style: italic;
-    font-family: Miama;
-    font-size:4.2rem;
-   
-}
+
 .paragraph{
     font-size: 1rem;
     line-height: 2;
