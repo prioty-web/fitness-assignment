@@ -190,7 +190,7 @@ letter-spacing: 0.2px;
     
 }
 .paragraph2{
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1;
     letter-spacing: 0.5px;
     color: rgba(255, 255, 255, 0.5);
@@ -339,6 +339,44 @@ opacity: 0.6;}
   }
  #activity{ width: 194%;}
 
+
+
+ /* extra section */
+
+
+ .paragraph3{
+    font-size: 0.7rem;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    }
+
+    .container20{color: white;
+       
+    display: grid;
+       grid-template-columns: repeat(3 ,1fr);
+           text-align: center;
+        margin-top: 80px;}
+
+
+           .clients-div{
+            border: none;
+            gap: 300px;
+            width: 200px;
+            margin: 0 auto;
+            padding: 35px 25px;
+            border-radius: 15px;
+            background-color:rgba(34, 34, 34, 1) ;
+           }
+           .clint-image{
+            height: 80px;
+            border: 7px solid rgba(0, 0, 0, 0.178);
+            border-radius: 50%;
+
+           }
+
+
  /* team member -meet our team */
  
 .container4{  
@@ -420,6 +458,13 @@ li{
 {
     flex-direction: column;
 }
+.container20{
+    grid-template-columns: repeat(1 ,1fr);
+}
+.clients-div{
+    margin-bottom: 25px;
+}
+
 .header{
     flex-direction: row;
 }
