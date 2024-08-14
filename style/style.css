@@ -12,7 +12,7 @@
    
 }
 *{margin: 0;
-    max-width: 1200px;
+    max-width: 1440px;
 }
 .primary-bg{
     background:linear-gradient( 
@@ -201,9 +201,7 @@ letter-spacing: 0.2px;
 /* picture section */
 .containerr{ display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    
     
  }
  .container2{
@@ -379,18 +377,22 @@ opacity: 0.6;}
 
  /* team member -meet our team */
  
-.container4{  
-    margin-top: 150px;  
-    margin-left: 100px;
-    gap: 35px;
+.container4{ 
         display: grid;      
           grid-template-columns: repeat(3, 1fr);
-          width: 900px;
+          width: 90%;
+          margin: auto;
       
           /* border: 1px;
           background-color:rgba(34, 34, 34, 1) ;
           border-radius: 18px; */
          /* text-align: center; */       
+}
+.container4 .team-member{
+    margin: 30px auto;
+}
+.container4 .text-block{
+    display: inline;
 }
 .trainer{
     height: 260px;
@@ -468,9 +470,13 @@ li{
 .header{
     flex-direction: row;
 }
-.note1
-{ margin-bottom:-0;
- font-size: 0.1rem;}
+.note1{
+     margin-bottom:-0;
+    font-size: 0.1rem;
+    position: relative;
+    top: -80px;
+    left: -20px;
+}
 .note2{
     font-size: 0.1rem;
     width: 8%;
@@ -571,7 +577,24 @@ footer
             margin-left: 20px;
         }
         .container4{
-            margin-left: 50px;
+            width: 80%;
+            margin: auto;  
+        }
+        .container4 .team-member{
+            align-items: center;
+            text-align: center
+        }
+
+        .container4 .team-member .text-block{
+            display: inline;
+        }
+        .container4 .team-member .overlay{
+            position: absolute;
+            left: 20vw;
+            text-align: left;
+        }
+        .container4 .team-member .overlay h3{
+            color: white;
         }
        .container6{
         margin-left: 30px;
@@ -579,4 +602,5 @@ footer
        .img2{
         margin-bottom: 30px;
        }
+       
 }
